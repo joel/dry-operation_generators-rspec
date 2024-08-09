@@ -7,7 +7,7 @@ PATH
 PATH
   remote: .
   specs:
-    dry-operations_generators-rspec (0.1.0)
+    dry-operation_generators-rspec (0.1.0)
       rails
 
 GEM
@@ -238,7 +238,7 @@ PLATFORMS
 
 DEPENDENCIES
   dry-operation_generators-base!
-  dry-operations_generators-rspec!
+  dry-operation_generators-rspec!
   rake (~> 13.0)
   rspec (~> 3.0)
   rubocop (~> 1.21)

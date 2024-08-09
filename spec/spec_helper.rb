@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require "dry-operations_generators-rspec"
+require "dry-operation_generators-rspec"
 
 Dir["#{File.dirname(__FILE__)}/support/pre/**/*.rb"].each { |f| require f }
 

@@ -1,9 +1,9 @@
 # frozen_string_literal: true
 
-require_relative "lib/dry-operations_generators-rspec/version"
+require_relative "lib/dry-operation_generators-rspec/version"
 
 Gem::Specification.new do |spec|
-  spec.name = "dry-operations_generators-rspec"
+  spec.name = "dry-operation_generators-rspec"
   spec.version = DryOperationsGeneratorsRspec::VERSION
   spec.authors = ["Joel AZEMAR"]
   spec.email = ["joel.azemar@gmail.com"]
