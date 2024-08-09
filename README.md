@@ -45,7 +45,7 @@ You should see
 Operations:
   operations:schema
 
-TestUnit:
+Rspec:
   rspec:operations:schema
 ```
 
@@ -65,7 +65,7 @@ They are automatically call when the generator it's call:
 ```shell
 rails generate operations:contract user create firstname:string{optional} --test_framework=rspec
     invoke  rspec
-    create    test/operations/users/create/contract_test.rb
+    create    spec/operations/users/create/contract_spec.rb
     create  app/operations/users/create/contract.rb
 ```
 
